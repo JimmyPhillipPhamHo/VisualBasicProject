@@ -118,6 +118,48 @@
     <Compile Include="Chapter 5\Chapter5Menu.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Chapter 5\Game Application\Coin Toss.Designer.vb">
+      <DependentUpon>Coin Toss.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 5\Game Application\Coin Toss.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 5\Game Application\RaceCarGame.Designer.vb">
+      <DependentUpon>RaceCarGame.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 5\Game Application\RaceCarGame.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 5\Game Application\RandomNumberGuessingGameEnhancement.Designer.vb">
+      <DependentUpon>RandomNumberGuessingGameEnhancement.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 5\Game Application\RandomNumberGuessingGameEnhancement.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 5\Game Application\RockPaperScissors.Designer.vb">
+      <DependentUpon>RockPaperScissors.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 5\Game Application\RockPaperScissors.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 5\Math Application\Distance Calculator.Designer.vb">
+      <DependentUpon>Distance Calculator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 5\Math Application\Distance Calculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 5\Math Application\RightTriangle.Designer.vb">
+      <DependentUpon>RightTriangle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 5\Math Application\RightTriangle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 5\Math Application\Sum of Number.Designer.vb">
+      <DependentUpon>Sum of Number.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 5\Math Application\Sum of Number.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Chapter 5\Tutorial Application\ComboBoxDemo.Designer.vb">
       <DependentUpon>ComboBoxDemo.vb</DependentUpon>
     </Compile>
@@ -184,6 +226,24 @@
     <EmbeddedResource Include="Chapter 4\Tutorial Application\TestScoreAverage2.resx">
       <DependentUpon>TestScoreAverage2.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 5\Chapter5Menu.resx">
+      <DependentUpon>Chapter5Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 5\Game Application\Coin Toss.resx">
+      <DependentUpon>Coin Toss.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 5\Game Application\RandomNumberGuessingGameEnhancement.resx">
+      <DependentUpon>RandomNumberGuessingGameEnhancement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 5\Math Application\Distance Calculator.resx">
+      <DependentUpon>Distance Calculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 5\Math Application\RightTriangle.resx">
+      <DependentUpon>RightTriangle.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 5\Math Application\Sum of Number.resx">
+      <DependentUpon>Sum of Number.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Chapter 5\Tutorial Application\RunningTotal.resx">
       <DependentUpon>RunningTotal.vb</DependentUpon>
     </EmbeddedResource>
@@ -212,10 +272,12 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="Chapter 5\Game Application\" />
-    <Folder Include="Chapter 5\Math Application\" />
-    <Folder Include="Chapter 5\Resources\" />
+    <None Include="Resources\coin 2.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coin.PNG" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
