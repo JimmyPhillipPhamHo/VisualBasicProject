@@ -27,6 +27,7 @@ Partial Class MainMenu
         Me.btnChapter5 = New System.Windows.Forms.Button()
         Me.btnChapter4 = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
+        Me.btnChapter8 = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnChapter1_2
@@ -74,11 +75,21 @@ Partial Class MainMenu
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
+        'btnChapter8
+        '
+        Me.btnChapter8.Location = New System.Drawing.Point(48, 237)
+        Me.btnChapter8.Name = "btnChapter8"
+        Me.btnChapter8.Size = New System.Drawing.Size(98, 33)
+        Me.btnChapter8.TabIndex = 5
+        Me.btnChapter8.Text = "Chapter 8"
+        Me.btnChapter8.UseVisualStyleBackColor = True
+        '
         'MainMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(395, 336)
+        Me.Controls.Add(Me.btnChapter8)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnChapter4)
         Me.Controls.Add(Me.btnChapter5)
@@ -94,5 +105,6 @@ Partial Class MainMenu
     Friend WithEvents btnChapter5 As System.Windows.Forms.Button
     Friend WithEvents btnChapter4 As System.Windows.Forms.Button
     Friend WithEvents btnExit As System.Windows.Forms.Button
+    Friend WithEvents btnChapter8 As System.Windows.Forms.Button
 
 End Class

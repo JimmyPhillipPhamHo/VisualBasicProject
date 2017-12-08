@@ -184,6 +184,18 @@
     <Compile Include="Chapter 5\Tutorial Application\Test Scores.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Chapter 8\The Lottery Numbers.Designer.vb">
+      <DependentUpon>The Lottery Numbers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 8\The Lottery Numbers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 8\The Seating Chart.Designer.vb">
+      <DependentUpon>The Seating Chart.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 8\The Seating Chart.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MainMenu.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -250,6 +262,12 @@
     <EmbeddedResource Include="Chapter 5\Tutorial Application\Test Scores.resx">
       <DependentUpon>Test Scores.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 8\The Lottery Numbers.resx">
+      <DependentUpon>The Lottery Numbers.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 8\The Seating Chart.resx">
+      <DependentUpon>The Seating Chart.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">
       <DependentUpon>MainMenu.vb</DependentUpon>
     </EmbeddedResource>
@@ -272,7 +290,9 @@
     </None>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Airplane.bmp" />
+  </ItemGroup>
   <ItemGroup>
     <None Include="Resources\coin 2.PNG" />
   </ItemGroup>
