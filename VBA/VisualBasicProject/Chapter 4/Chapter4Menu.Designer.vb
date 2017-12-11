@@ -58,7 +58,7 @@ Partial Class Chapter4Menu
         '
         'Button3
         '
-        Me.Button3.Location = New System.Drawing.Point(423, 250)
+        Me.Button3.Location = New System.Drawing.Point(403, 229)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
         Me.Button3.TabIndex = 3
@@ -67,7 +67,7 @@ Partial Class Chapter4Menu
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(423, 198)
+        Me.Button4.Location = New System.Drawing.Point(403, 177)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(75, 23)
         Me.Button4.TabIndex = 2
@@ -76,7 +76,7 @@ Partial Class Chapter4Menu
         '
         'Button5
         '
-        Me.Button5.Location = New System.Drawing.Point(423, 357)
+        Me.Button5.Location = New System.Drawing.Point(403, 336)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(75, 23)
         Me.Button5.TabIndex = 7
@@ -85,7 +85,7 @@ Partial Class Chapter4Menu
         '
         'Button6
         '
-        Me.Button6.Location = New System.Drawing.Point(423, 305)
+        Me.Button6.Location = New System.Drawing.Point(403, 284)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(75, 23)
         Me.Button6.TabIndex = 6
@@ -112,7 +112,7 @@ Partial Class Chapter4Menu
         '
         'Button9
         '
-        Me.Button9.Location = New System.Drawing.Point(510, 250)
+        Me.Button9.Location = New System.Drawing.Point(490, 229)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(75, 23)
         Me.Button9.TabIndex = 15
@@ -121,7 +121,7 @@ Partial Class Chapter4Menu
         '
         'Button10
         '
-        Me.Button10.Location = New System.Drawing.Point(510, 305)
+        Me.Button10.Location = New System.Drawing.Point(490, 284)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(75, 23)
         Me.Button10.TabIndex = 14
@@ -130,7 +130,7 @@ Partial Class Chapter4Menu
         '
         'Button11
         '
-        Me.Button11.Location = New System.Drawing.Point(510, 357)
+        Me.Button11.Location = New System.Drawing.Point(490, 336)
         Me.Button11.Name = "Button11"
         Me.Button11.Size = New System.Drawing.Size(75, 23)
         Me.Button11.TabIndex = 13
@@ -139,7 +139,7 @@ Partial Class Chapter4Menu
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(346, 286)
+        Me.btnExit.Location = New System.Drawing.Point(326, 265)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
         Me.btnExit.TabIndex = 16

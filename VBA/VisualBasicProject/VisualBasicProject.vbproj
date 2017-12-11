@@ -112,10 +112,10 @@
     <Compile Include="Chapter 4\Tutorial Application\TestScoreAverage2.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter 5\Chapter5Menu.Designer.vb">
-      <DependentUpon>Chapter5Menu.vb</DependentUpon>
+    <Compile Include="Chapter 5\Chapter 5 Menu.Designer.vb">
+      <DependentUpon>Chapter 5 Menu.vb</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 5\Chapter5Menu.vb">
+    <Compile Include="Chapter 5\Chapter 5 Menu.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Chapter 5\Game Application\Coin Toss.Designer.vb">
@@ -124,16 +124,16 @@
     <Compile Include="Chapter 5\Game Application\Coin Toss.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter 5\Game Application\RaceCarGame.Designer.vb">
-      <DependentUpon>RaceCarGame.vb</DependentUpon>
+    <Compile Include="Chapter 5\Game Application\Race Car Game.Designer.vb">
+      <DependentUpon>Race Car Game.vb</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 5\Game Application\RaceCarGame.vb">
+    <Compile Include="Chapter 5\Game Application\Race Car Game.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter 5\Game Application\RandomNumberGuessingGameEnhancement.Designer.vb">
-      <DependentUpon>RandomNumberGuessingGameEnhancement.vb</DependentUpon>
+    <Compile Include="Chapter 5\Game Application\Random Number Guessing Game Enhancement.Designer.vb">
+      <DependentUpon>Random Number Guessing Game Enhancement.vb</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 5\Game Application\RandomNumberGuessingGameEnhancement.vb">
+    <Compile Include="Chapter 5\Game Application\Random Number Guessing Game Enhancement.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Chapter 5\Game Application\RockPaperScissors.Designer.vb">
@@ -148,10 +148,10 @@
     <Compile Include="Chapter 5\Math Application\Distance Calculator.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter 5\Math Application\RightTriangle.Designer.vb">
-      <DependentUpon>RightTriangle.vb</DependentUpon>
+    <Compile Include="Chapter 5\Math Application\Right Triangle.Designer.vb">
+      <DependentUpon>Right Triangle.vb</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 5\Math Application\RightTriangle.vb">
+    <Compile Include="Chapter 5\Math Application\Right Triangle.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Chapter 5\Math Application\Sum of Number.Designer.vb">
@@ -160,22 +160,22 @@
     <Compile Include="Chapter 5\Math Application\Sum of Number.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter 5\Tutorial Application\ComboBoxDemo.Designer.vb">
-      <DependentUpon>ComboBoxDemo.vb</DependentUpon>
+    <Compile Include="Chapter 5\Tutorial Application\Combo Box Demo.Designer.vb">
+      <DependentUpon>Combo Box Demo.vb</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 5\Tutorial Application\ComboBoxDemo.vb">
+    <Compile Include="Chapter 5\Tutorial Application\Combo Box Demo.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter 5\Tutorial Application\ForNextDemo2.Designer.vb">
-      <DependentUpon>ForNextDemo2.vb</DependentUpon>
+    <Compile Include="Chapter 5\Tutorial Application\For Next Demo2.Designer.vb">
+      <DependentUpon>For Next Demo2.vb</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 5\Tutorial Application\ForNextDemo2.vb">
+    <Compile Include="Chapter 5\Tutorial Application\For Next Demo2.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter 5\Tutorial Application\RunningTotal.Designer.vb">
-      <DependentUpon>RunningTotal.vb</DependentUpon>
+    <Compile Include="Chapter 5\Tutorial Application\Running Total.Designer.vb">
+      <DependentUpon>Running Total.vb</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 5\Tutorial Application\RunningTotal.vb">
+    <Compile Include="Chapter 5\Tutorial Application\Running Total.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Chapter 5\Tutorial Application\Test Scores.Designer.vb">
@@ -184,16 +184,34 @@
     <Compile Include="Chapter 5\Tutorial Application\Test Scores.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter 8\The Lottery Numbers.Designer.vb">
-      <DependentUpon>The Lottery Numbers.vb</DependentUpon>
+    <Compile Include="Chapter 8\Chapter 8 Menu.Designer.vb">
+      <DependentUpon>Chapter 8 Menu.vb</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 8\The Lottery Numbers.vb">
+    <Compile Include="Chapter 8\Chapter 8 Menu.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter 8\The Seating Chart.Designer.vb">
+    <Compile Include="Chapter 8\Tutorial Application\Friend List 2.Designer.vb">
+      <DependentUpon>Friend List 2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 8\Tutorial Application\Friend List 2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 8\Tutorial Application\Friends List.Designer.vb">
+      <DependentUpon>Friends List.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 8\Tutorial Application\Friends List.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 8\Tutorial Application\The Lottery Numbers.Designer.vb">
+      <DependentUpon>The Lottery Numbers.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 8\Tutorial Application\The Lottery Numbers.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 8\Tutorial Application\The Seating Chart.Designer.vb">
       <DependentUpon>The Seating Chart.vb</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 8\The Seating Chart.vb">
+    <Compile Include="Chapter 8\Tutorial Application\The Seating Chart.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="MainMenu.vb">
@@ -238,34 +256,46 @@
     <EmbeddedResource Include="Chapter 4\Tutorial Application\TestScoreAverage2.resx">
       <DependentUpon>TestScoreAverage2.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Chapter 5\Chapter5Menu.resx">
-      <DependentUpon>Chapter5Menu.vb</DependentUpon>
+    <EmbeddedResource Include="Chapter 5\Chapter 5 Menu.resx">
+      <DependentUpon>Chapter 5 Menu.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Chapter 5\Game Application\Coin Toss.resx">
       <DependentUpon>Coin Toss.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Chapter 5\Game Application\RandomNumberGuessingGameEnhancement.resx">
-      <DependentUpon>RandomNumberGuessingGameEnhancement.vb</DependentUpon>
+    <EmbeddedResource Include="Chapter 5\Game Application\Random Number Guessing Game Enhancement.resx">
+      <DependentUpon>Random Number Guessing Game Enhancement.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Chapter 5\Math Application\Distance Calculator.resx">
       <DependentUpon>Distance Calculator.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Chapter 5\Math Application\RightTriangle.resx">
-      <DependentUpon>RightTriangle.vb</DependentUpon>
+    <EmbeddedResource Include="Chapter 5\Math Application\Right Triangle.resx">
+      <DependentUpon>Right Triangle.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Chapter 5\Math Application\Sum of Number.resx">
       <DependentUpon>Sum of Number.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Chapter 5\Tutorial Application\RunningTotal.resx">
-      <DependentUpon>RunningTotal.vb</DependentUpon>
+    <EmbeddedResource Include="Chapter 5\Tutorial Application\Combo Box Demo.resx">
+      <DependentUpon>Combo Box Demo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 5\Tutorial Application\Running Total.resx">
+      <DependentUpon>Running Total.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Chapter 5\Tutorial Application\Test Scores.resx">
       <DependentUpon>Test Scores.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Chapter 8\The Lottery Numbers.resx">
+    <EmbeddedResource Include="Chapter 8\Chapter 8 Menu.resx">
+      <DependentUpon>Chapter 8 Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 8\Tutorial Application\Friend List 2.resx">
+      <DependentUpon>Friend List 2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 8\Tutorial Application\Friends List.resx">
+      <DependentUpon>Friends List.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 8\Tutorial Application\The Lottery Numbers.resx">
       <DependentUpon>The Lottery Numbers.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Chapter 8\The Seating Chart.resx">
+    <EmbeddedResource Include="Chapter 8\Tutorial Application\The Seating Chart.resx">
       <DependentUpon>The Seating Chart.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainMenu.resx">

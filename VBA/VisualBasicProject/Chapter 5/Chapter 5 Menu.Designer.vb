@@ -46,7 +46,7 @@ Partial Class Chapter5Menu
         '
         'btnRightTriangle
         '
-        Me.btnRightTriangle.Location = New System.Drawing.Point(34, 166)
+        Me.btnRightTriangle.Location = New System.Drawing.Point(34, 150)
         Me.btnRightTriangle.Name = "btnRightTriangle"
         Me.btnRightTriangle.Size = New System.Drawing.Size(86, 23)
         Me.btnRightTriangle.TabIndex = 35
@@ -109,7 +109,7 @@ Partial Class Chapter5Menu
         '
         'btnPopulation
         '
-        Me.btnPopulation.Location = New System.Drawing.Point(34, 121)
+        Me.btnPopulation.Location = New System.Drawing.Point(34, 106)
         Me.btnPopulation.Name = "btnPopulation"
         Me.btnPopulation.Size = New System.Drawing.Size(75, 23)
         Me.btnPopulation.TabIndex = 25
@@ -221,7 +221,7 @@ Partial Class Chapter5Menu
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Chapter5Menu"
-        Me.Text = "Chapter5Menu"
+        Me.Text = "Chapter 5 Menu"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox3.ResumeLayout(False)
