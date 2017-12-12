@@ -30,8 +30,8 @@ Partial Class ComboBoxDemo
         Me.Label3 = New System.Windows.Forms.Label()
         Me.lblCountry = New System.Windows.Forms.Label()
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
-        Me.lblPlay = New System.Windows.Forms.Label()
         Me.lblArtist = New System.Windows.Forms.Label()
+        Me.lblPlay = New System.Windows.Forms.Label()
         Me.cboCountries = New System.Windows.Forms.ComboBox()
         Me.cboPlays = New System.Windows.Forms.ComboBox()
         Me.cboArtists = New System.Windows.Forms.ComboBox()
@@ -77,7 +77,7 @@ Partial Class ComboBoxDemo
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(62, 81)
+        Me.Label2.Location = New System.Drawing.Point(60, 88)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(78, 13)
         Me.Label2.TabIndex = 4
@@ -86,7 +86,7 @@ Partial Class ComboBoxDemo
         'Label3
         '
         Me.Label3.AutoSize = True
-        Me.Label3.Location = New System.Drawing.Point(28, 155)
+        Me.Label3.Location = New System.Drawing.Point(28, 153)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(87, 13)
         Me.Label3.TabIndex = 5
@@ -112,14 +112,6 @@ Partial Class ComboBoxDemo
         Me.GroupBox1.TabStop = False
         Me.GroupBox1.Text = "Your Choices"
         '
-        'lblPlay
-        '
-        Me.lblPlay.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblPlay.Location = New System.Drawing.Point(21, 79)
-        Me.lblPlay.Name = "lblPlay"
-        Me.lblPlay.Size = New System.Drawing.Size(208, 31)
-        Me.lblPlay.TabIndex = 7
-        '
         'lblArtist
         '
         Me.lblArtist.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
@@ -127,6 +119,14 @@ Partial Class ComboBoxDemo
         Me.lblArtist.Name = "lblArtist"
         Me.lblArtist.Size = New System.Drawing.Size(208, 31)
         Me.lblArtist.TabIndex = 8
+        '
+        'lblPlay
+        '
+        Me.lblPlay.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblPlay.Location = New System.Drawing.Point(21, 79)
+        Me.lblPlay.Name = "lblPlay"
+        Me.lblPlay.Size = New System.Drawing.Size(208, 31)
+        Me.lblPlay.TabIndex = 7
         '
         'cboCountries
         '
@@ -141,7 +141,7 @@ Partial Class ComboBoxDemo
         '
         Me.cboPlays.FormattingEnabled = True
         Me.cboPlays.Items.AddRange(New Object() {"Hamlet", "Much Ado about Nothing", "Romeo and Juliet", "A Comedy of Errors", "The Merchant of Venice"})
-        Me.cboPlays.Location = New System.Drawing.Point(163, 81)
+        Me.cboPlays.Location = New System.Drawing.Point(161, 88)
         Me.cboPlays.Name = "cboPlays"
         Me.cboPlays.Size = New System.Drawing.Size(137, 21)
         Me.cboPlays.TabIndex = 9
@@ -150,7 +150,7 @@ Partial Class ComboBoxDemo
         '
         Me.cboArtists.FormattingEnabled = True
         Me.cboArtists.Items.AddRange(New Object() {"Michelangelo", "Raphael", "da Vinci"})
-        Me.cboArtists.Location = New System.Drawing.Point(129, 155)
+        Me.cboArtists.Location = New System.Drawing.Point(129, 153)
         Me.cboArtists.Name = "cboArtists"
         Me.cboArtists.Size = New System.Drawing.Size(73, 21)
         Me.cboArtists.TabIndex = 10

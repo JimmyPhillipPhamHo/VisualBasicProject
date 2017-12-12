@@ -82,34 +82,52 @@
     <Compile Include="Chapter 3\Chapter3Menu.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Chapter 4\Application\HalloWorldPassword.Designer.vb">
+      <DependentUpon>HalloWorldPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 4\Application\HalloWorldPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 4\Application\MadLibs.Designer.vb">
+      <DependentUpon>MadLibs.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 4\Application\MadLibs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 4\Application\Romen Numeral Converter.Designer.vb">
+      <DependentUpon>Romen Numeral Converter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 4\Application\Romen Numeral Converter.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Chapter 4\Chapter4Menu.Designer.vb">
       <DependentUpon>Chapter4Menu.vb</DependentUpon>
     </Compile>
     <Compile Include="Chapter 4\Chapter4Menu.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter 4\Tutorial Application\CrazyAI%27sCommissionCalculator.Designer.vb">
-      <DependentUpon>CrazyAI%27sCommissionCalculator.vb</DependentUpon>
+    <Compile Include="Chapter 4\Tutorial Application\Crazy AI%27s Commission Calculator.Designer.vb">
+      <DependentUpon>Crazy AI%27s Commission Calculator.vb</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 4\Tutorial Application\CrazyAI%27sCommissionCalculator.vb">
+    <Compile Include="Chapter 4\Tutorial Application\Crazy AI%27s Commission Calculator.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter 4\Tutorial Application\LoanQualifier.Designer.vb">
-      <DependentUpon>LoanQualifier.vb</DependentUpon>
+    <Compile Include="Chapter 4\Tutorial Application\Loan Qualifier.Designer.vb">
+      <DependentUpon>Loan Qualifier.vb</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 4\Tutorial Application\LoanQualifier.vb">
+    <Compile Include="Chapter 4\Tutorial Application\Loan Qualifier.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter 4\Tutorial Application\RadioButtonCheckBoxDemo.Designer.vb">
-      <DependentUpon>RadioButtonCheckBoxDemo.vb</DependentUpon>
+    <Compile Include="Chapter 4\Tutorial Application\Radio Button Check Box Demo.Designer.vb">
+      <DependentUpon>Radio Button Check Box Demo.vb</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 4\Tutorial Application\RadioButtonCheckBoxDemo.vb">
+    <Compile Include="Chapter 4\Tutorial Application\Radio Button Check Box Demo.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter 4\Tutorial Application\TestScoreAverage2.Designer.vb">
-      <DependentUpon>TestScoreAverage2.vb</DependentUpon>
+    <Compile Include="Chapter 4\Tutorial Application\Test Score Average 2.Designer.vb">
+      <DependentUpon>Test Score Average 2.vb</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 4\Tutorial Application\TestScoreAverage2.vb">
+    <Compile Include="Chapter 4\Tutorial Application\Test Score Average 2.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Chapter 5\Chapter 5 Menu.Designer.vb">
@@ -241,20 +259,29 @@
     <EmbeddedResource Include="Chapter 1 And 2\Chapter1_2Menu.resx">
       <DependentUpon>Chapter1_2Menu.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 4\Application\HalloWorldPassword.resx">
+      <DependentUpon>HalloWorldPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 4\Application\MadLibs.resx">
+      <DependentUpon>MadLibs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 4\Application\Romen Numeral Converter.resx">
+      <DependentUpon>Romen Numeral Converter.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Chapter 4\Chapter4Menu.resx">
       <DependentUpon>Chapter4Menu.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Chapter 4\Tutorial Application\CrazyAI%27sCommissionCalculator.resx">
-      <DependentUpon>CrazyAI%27sCommissionCalculator.vb</DependentUpon>
+    <EmbeddedResource Include="Chapter 4\Tutorial Application\Crazy AI%27s Commission Calculator.resx">
+      <DependentUpon>Crazy AI%27s Commission Calculator.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Chapter 4\Tutorial Application\LoanQualifier.resx">
-      <DependentUpon>LoanQualifier.vb</DependentUpon>
+    <EmbeddedResource Include="Chapter 4\Tutorial Application\Loan Qualifier.resx">
+      <DependentUpon>Loan Qualifier.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Chapter 4\Tutorial Application\RadioButtonCheckBoxDemo.resx">
-      <DependentUpon>RadioButtonCheckBoxDemo.vb</DependentUpon>
+    <EmbeddedResource Include="Chapter 4\Tutorial Application\Radio Button Check Box Demo.resx">
+      <DependentUpon>Radio Button Check Box Demo.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Chapter 4\Tutorial Application\TestScoreAverage2.resx">
-      <DependentUpon>TestScoreAverage2.vb</DependentUpon>
+    <EmbeddedResource Include="Chapter 4\Tutorial Application\Test Score Average 2.resx">
+      <DependentUpon>Test Score Average 2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Chapter 5\Chapter 5 Menu.resx">
       <DependentUpon>Chapter 5 Menu.vb</DependentUpon>
