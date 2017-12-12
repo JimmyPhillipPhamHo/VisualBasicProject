@@ -166,10 +166,10 @@
     <Compile Include="Chapter 5\Tutorial Application\Combo Box Demo.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter 5\Tutorial Application\For Next Demo2.Designer.vb">
-      <DependentUpon>For Next Demo2.vb</DependentUpon>
+    <Compile Include="Chapter 5\Tutorial Application\For Next Demo 2.Designer.vb">
+      <DependentUpon>For Next Demo 2.vb</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 5\Tutorial Application\For Next Demo2.vb">
+    <Compile Include="Chapter 5\Tutorial Application\For Next Demo 2.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Chapter 5\Tutorial Application\Running Total.Designer.vb">
@@ -277,6 +277,9 @@
     <EmbeddedResource Include="Chapter 5\Tutorial Application\Combo Box Demo.resx">
       <DependentUpon>Combo Box Demo.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 5\Tutorial Application\For Next Demo 2.resx">
+      <DependentUpon>For Next Demo 2.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Chapter 5\Tutorial Application\Running Total.resx">
       <DependentUpon>Running Total.vb</DependentUpon>
     </EmbeddedResource>
@@ -328,6 +331,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\coin.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Green_Propeller_Cap_clothing_icon_ID_1075.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

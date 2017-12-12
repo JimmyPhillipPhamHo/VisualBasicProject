@@ -46,7 +46,7 @@
     ' Tot
 
     Private Sub btnRunningTotal_Click(sender As Object, e As EventArgs) Handles btnRunningTotal.Click
-        Dim Box = New TotalSales
+        Dim Box = New TotalScores
         Box.Show()
 
     End Sub
