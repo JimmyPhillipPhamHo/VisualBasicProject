@@ -39,13 +39,13 @@ Partial Class MadLibs
         Me.Label1 = New System.Windows.Forms.Label()
         Me.listEst = New System.Windows.Forms.ListBox()
         Me.listColor = New System.Windows.Forms.ListBox()
-        Me.btnNewStory = New System.Windows.Forms.Button()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(341, 444)
+        Me.btnExit.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnExit.Location = New System.Drawing.Point(331, 398)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(120, 48)
         Me.btnExit.TabIndex = 33
@@ -54,7 +54,8 @@ Partial Class MadLibs
         '
         'btnClear
         '
-        Me.btnClear.Location = New System.Drawing.Point(180, 444)
+        Me.btnClear.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnClear.Location = New System.Drawing.Point(189, 435)
         Me.btnClear.Name = "btnClear"
         Me.btnClear.Size = New System.Drawing.Size(120, 48)
         Me.btnClear.TabIndex = 32
@@ -63,7 +64,8 @@ Partial Class MadLibs
         '
         'btnSubmit
         '
-        Me.btnSubmit.Location = New System.Drawing.Point(180, 388)
+        Me.btnSubmit.Font = New System.Drawing.Font("Segoe Print", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnSubmit.Location = New System.Drawing.Point(189, 368)
         Me.btnSubmit.Name = "btnSubmit"
         Me.btnSubmit.Size = New System.Drawing.Size(120, 48)
         Me.btnSubmit.TabIndex = 31
@@ -196,23 +198,14 @@ Partial Class MadLibs
         Me.listColor.Size = New System.Drawing.Size(120, 95)
         Me.listColor.TabIndex = 17
         '
-        'btnNewStory
-        '
-        Me.btnNewStory.Location = New System.Drawing.Point(341, 388)
-        Me.btnNewStory.Name = "btnNewStory"
-        Me.btnNewStory.Size = New System.Drawing.Size(120, 48)
-        Me.btnNewStory.TabIndex = 34
-        Me.btnNewStory.Text = "New Story"
-        Me.btnNewStory.UseVisualStyleBackColor = True
-        '
         'Label8
         '
         Me.Label8.AutoSize = True
-        Me.Label8.Font = New System.Drawing.Font("Mistral", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label8.Font = New System.Drawing.Font("SketchFlow Print", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.Teal
-        Me.Label8.Location = New System.Drawing.Point(182, 9)
+        Me.Label8.Location = New System.Drawing.Point(27, 26)
         Me.Label8.Name = "Label8"
-        Me.Label8.Size = New System.Drawing.Size(472, 38)
+        Me.Label8.Size = New System.Drawing.Size(434, 21)
         Me.Label8.TabIndex = 35
         Me.Label8.Text = "Jimmy Pham Ho Story Time Adventure Show"
         '
@@ -221,9 +214,8 @@ Partial Class MadLibs
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(597, 524)
+        Me.ClientSize = New System.Drawing.Size(500, 524)
         Me.Controls.Add(Me.Label8)
-        Me.Controls.Add(Me.btnNewStory)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.btnSubmit)
@@ -264,6 +256,5 @@ End Sub
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents listEst As System.Windows.Forms.ListBox
     Friend WithEvents listColor As System.Windows.Forms.ListBox
-    Friend WithEvents btnNewStory As System.Windows.Forms.Button
     Friend WithEvents Label8 As System.Windows.Forms.Label
 End Class

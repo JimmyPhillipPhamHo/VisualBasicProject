@@ -22,63 +22,90 @@ Partial Class Chapter8Menu
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
+        Me.btnSeatingChart = New System.Windows.Forms.Button()
+        Me.btnLotteryNumbers = New System.Windows.Forms.Button()
+        Me.btnFriendsList = New System.Windows.Forms.Button()
+        Me.btnExit = New System.Windows.Forms.Button()
+        Me.btnFriendsList2 = New System.Windows.Forms.Button()
+        Me.GroupBox1 = New System.Windows.Forms.GroupBox()
+        Me.GroupBox1.SuspendLayout()
         Me.SuspendLayout()
         '
-        'Button1
+        'btnSeatingChart
         '
-        Me.Button1.Location = New System.Drawing.Point(67, 137)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(124, 23)
-        Me.Button1.TabIndex = 0
-        Me.Button1.Text = "The Seating Chart"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.btnSeatingChart.Location = New System.Drawing.Point(17, 19)
+        Me.btnSeatingChart.Name = "btnSeatingChart"
+        Me.btnSeatingChart.Size = New System.Drawing.Size(94, 44)
+        Me.btnSeatingChart.TabIndex = 0
+        Me.btnSeatingChart.Text = "The Seating Chart"
+        Me.btnSeatingChart.UseVisualStyleBackColor = True
         '
-        'Button2
+        'btnLotteryNumbers
         '
-        Me.Button2.Location = New System.Drawing.Point(66, 90)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(125, 23)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "The Lottery Numbers"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.btnLotteryNumbers.Location = New System.Drawing.Point(17, 77)
+        Me.btnLotteryNumbers.Name = "btnLotteryNumbers"
+        Me.btnLotteryNumbers.Size = New System.Drawing.Size(94, 44)
+        Me.btnLotteryNumbers.TabIndex = 1
+        Me.btnLotteryNumbers.Text = "The Lottery Numbers"
+        Me.btnLotteryNumbers.UseVisualStyleBackColor = True
         '
-        'Button3
+        'btnFriendsList
         '
-        Me.Button3.Location = New System.Drawing.Point(230, 90)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(75, 23)
-        Me.Button3.TabIndex = 2
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.btnFriendsList.Location = New System.Drawing.Point(128, 19)
+        Me.btnFriendsList.Name = "btnFriendsList"
+        Me.btnFriendsList.Size = New System.Drawing.Size(94, 44)
+        Me.btnFriendsList.TabIndex = 2
+        Me.btnFriendsList.Text = "Friends List"
+        Me.btnFriendsList.UseVisualStyleBackColor = True
         '
-        'Button4
+        'btnExit
         '
-        Me.Button4.Location = New System.Drawing.Point(245, 137)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(75, 23)
-        Me.Button4.TabIndex = 3
-        Me.Button4.Text = "Button4"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.btnExit.Location = New System.Drawing.Point(281, 76)
+        Me.btnExit.Name = "btnExit"
+        Me.btnExit.Size = New System.Drawing.Size(88, 30)
+        Me.btnExit.TabIndex = 3
+        Me.btnExit.Text = "Exit"
+        Me.btnExit.UseVisualStyleBackColor = True
+        '
+        'btnFriendsList2
+        '
+        Me.btnFriendsList2.Location = New System.Drawing.Point(128, 77)
+        Me.btnFriendsList2.Name = "btnFriendsList2"
+        Me.btnFriendsList2.Size = New System.Drawing.Size(94, 44)
+        Me.btnFriendsList2.TabIndex = 4
+        Me.btnFriendsList2.Text = "Friends List 2"
+        Me.btnFriendsList2.UseVisualStyleBackColor = True
+        '
+        'GroupBox1
+        '
+        Me.GroupBox1.Controls.Add(Me.btnFriendsList2)
+        Me.GroupBox1.Controls.Add(Me.btnSeatingChart)
+        Me.GroupBox1.Controls.Add(Me.btnLotteryNumbers)
+        Me.GroupBox1.Controls.Add(Me.btnFriendsList)
+        Me.GroupBox1.Location = New System.Drawing.Point(22, 21)
+        Me.GroupBox1.Name = "GroupBox1"
+        Me.GroupBox1.Size = New System.Drawing.Size(243, 144)
+        Me.GroupBox1.TabIndex = 5
+        Me.GroupBox1.TabStop = False
+        Me.GroupBox1.Text = "Array Applications"
         '
         'Chapter8Menu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(381, 304)
-        Me.Controls.Add(Me.Button4)
-        Me.Controls.Add(Me.Button3)
-        Me.Controls.Add(Me.Button2)
-        Me.Controls.Add(Me.Button1)
+        Me.ClientSize = New System.Drawing.Size(381, 190)
+        Me.Controls.Add(Me.GroupBox1)
+        Me.Controls.Add(Me.btnExit)
         Me.Name = "Chapter8Menu"
         Me.Text = "Chapter 8 Menu"
+        Me.GroupBox1.ResumeLayout(False)
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Button3 As System.Windows.Forms.Button
-    Friend WithEvents Button4 As System.Windows.Forms.Button
+    Friend WithEvents btnSeatingChart As System.Windows.Forms.Button
+    Friend WithEvents btnLotteryNumbers As System.Windows.Forms.Button
+    Friend WithEvents btnFriendsList As System.Windows.Forms.Button
+    Friend WithEvents btnExit As System.Windows.Forms.Button
+    Friend WithEvents btnFriendsList2 As System.Windows.Forms.Button
+    Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
 End Class

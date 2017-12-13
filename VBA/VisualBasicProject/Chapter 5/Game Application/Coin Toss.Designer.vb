@@ -120,7 +120,7 @@ Partial Class CoinToss
         Me.Controls.Add(Me.picTails)
         Me.Controls.Add(Me.picHeads)
         Me.Name = "CoinToss"
-        Me.Text = "CoinToss"
+        Me.Text = "Coin Toss"
         CType(Me.picTails, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.picHeads, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)

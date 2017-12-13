@@ -130,4 +130,7 @@
   <data name="Green_Propeller_Cap_clothing_icon_ID_1075" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Green_Propeller_Cap_clothing_icon_ID_1075.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\download.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
 </root>

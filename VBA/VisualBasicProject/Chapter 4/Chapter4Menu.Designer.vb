@@ -67,7 +67,7 @@ Partial Class Chapter4Menu
         '
         'Button4
         '
-        Me.Button4.Location = New System.Drawing.Point(403, 177)
+        Me.Button4.Location = New System.Drawing.Point(36, 240)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(75, 23)
         Me.Button4.TabIndex = 2

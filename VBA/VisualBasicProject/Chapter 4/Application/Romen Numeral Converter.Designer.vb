@@ -22,26 +22,19 @@ Partial Class RomenNumeralConverter
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.StatusStrip1 = New System.Windows.Forms.StatusStrip()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.btnConvert = New System.Windows.Forms.Button()
-        Me.txtDecimalInteger = New System.Windows.Forms.TextBox()
-        Me.lblRomanNumeral = New System.Windows.Forms.Label()
+        Me.txtUserInput = New System.Windows.Forms.TextBox()
+        Me.lblResult = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.btnClear = New System.Windows.Forms.Button()
+        Me.lblMessage = New System.Windows.Forms.Label()
         Me.SuspendLayout()
-        '
-        'StatusStrip1
-        '
-        Me.StatusStrip1.Location = New System.Drawing.Point(0, 170)
-        Me.StatusStrip1.Name = "StatusStrip1"
-        Me.StatusStrip1.Size = New System.Drawing.Size(368, 22)
-        Me.StatusStrip1.TabIndex = 14
-        Me.StatusStrip1.Text = "StatusStrip1"
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(181, 116)
+        Me.btnExit.Location = New System.Drawing.Point(253, 116)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(88, 34)
         Me.btnExit.TabIndex = 13
@@ -50,27 +43,27 @@ Partial Class RomenNumeralConverter
         '
         'btnConvert
         '
-        Me.btnConvert.Location = New System.Drawing.Point(82, 116)
+        Me.btnConvert.Location = New System.Drawing.Point(30, 116)
         Me.btnConvert.Name = "btnConvert"
         Me.btnConvert.Size = New System.Drawing.Size(88, 34)
         Me.btnConvert.TabIndex = 12
         Me.btnConvert.Text = "Convert"
         Me.btnConvert.UseVisualStyleBackColor = True
         '
-        'txtDecimalInteger
+        'txtUserInput
         '
-        Me.txtDecimalInteger.Location = New System.Drawing.Point(181, 15)
-        Me.txtDecimalInteger.Name = "txtDecimalInteger"
-        Me.txtDecimalInteger.Size = New System.Drawing.Size(128, 20)
-        Me.txtDecimalInteger.TabIndex = 11
+        Me.txtUserInput.Location = New System.Drawing.Point(181, 15)
+        Me.txtUserInput.Name = "txtUserInput"
+        Me.txtUserInput.Size = New System.Drawing.Size(128, 20)
+        Me.txtUserInput.TabIndex = 11
         '
-        'lblRomanNumeral
+        'lblResult
         '
-        Me.lblRomanNumeral.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
-        Me.lblRomanNumeral.Location = New System.Drawing.Point(181, 65)
-        Me.lblRomanNumeral.Name = "lblRomanNumeral"
-        Me.lblRomanNumeral.Size = New System.Drawing.Size(128, 23)
-        Me.lblRomanNumeral.TabIndex = 10
+        Me.lblResult.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblResult.Location = New System.Drawing.Point(181, 65)
+        Me.lblResult.Name = "lblResult"
+        Me.lblResult.Size = New System.Drawing.Size(128, 23)
+        Me.lblResult.TabIndex = 10
         '
         'Label2
         '
@@ -90,16 +83,34 @@ Partial Class RomenNumeralConverter
         Me.Label1.TabIndex = 8
         Me.Label1.Text = "Enter a decimal integer" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "     in a the range 1 - 10:"
         '
+        'btnClear
+        '
+        Me.btnClear.Location = New System.Drawing.Point(142, 116)
+        Me.btnClear.Name = "btnClear"
+        Me.btnClear.Size = New System.Drawing.Size(88, 34)
+        Me.btnClear.TabIndex = 15
+        Me.btnClear.Text = "Clear"
+        Me.btnClear.UseVisualStyleBackColor = True
+        '
+        'lblMessage
+        '
+        Me.lblMessage.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
+        Me.lblMessage.Location = New System.Drawing.Point(0, 169)
+        Me.lblMessage.Name = "lblMessage"
+        Me.lblMessage.Size = New System.Drawing.Size(368, 23)
+        Me.lblMessage.TabIndex = 16
+        '
         'RomenNumeralConverter
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(368, 192)
-        Me.Controls.Add(Me.StatusStrip1)
+        Me.Controls.Add(Me.lblMessage)
+        Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnConvert)
-        Me.Controls.Add(Me.txtDecimalInteger)
-        Me.Controls.Add(Me.lblRomanNumeral)
+        Me.Controls.Add(Me.txtUserInput)
+        Me.Controls.Add(Me.lblResult)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Name = "RomenNumeralConverter"
@@ -108,11 +119,12 @@ Partial Class RomenNumeralConverter
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents StatusStrip1 As System.Windows.Forms.StatusStrip
     Friend WithEvents btnExit As System.Windows.Forms.Button
     Friend WithEvents btnConvert As System.Windows.Forms.Button
-    Friend WithEvents txtDecimalInteger As System.Windows.Forms.TextBox
-    Friend WithEvents lblRomanNumeral As System.Windows.Forms.Label
+    Friend WithEvents txtUserInput As System.Windows.Forms.TextBox
+    Friend WithEvents lblResult As System.Windows.Forms.Label
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents btnClear As System.Windows.Forms.Button
+    Friend WithEvents lblMessage As System.Windows.Forms.Label
 End Class
