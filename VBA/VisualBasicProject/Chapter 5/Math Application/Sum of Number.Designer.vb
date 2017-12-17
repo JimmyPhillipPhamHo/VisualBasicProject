@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class SumofNumber
+Partial Class SumOfNumber
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -44,14 +44,14 @@ Partial Class SumofNumber
         Me.btnEnterNumbers.Text = "Enter Numbers"
         Me.btnEnterNumbers.UseVisualStyleBackColor = True
         '
-        'SumofNumber
+        'SumOfNumber
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(355, 148)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnEnterNumbers)
-        Me.Name = "SumofNumber"
+        Me.Name = "SumOfNumber"
         Me.Text = "Sum of Number"
         Me.ResumeLayout(False)
 

@@ -76,6 +76,18 @@
     <Compile Include="Chapter 1 And 2\Chapter1_2Menu.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Chapter 1 And 2\German Number.Designer.vb">
+      <DependentUpon>German Number.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 1 And 2\German Number.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 1 And 2\Joke and Punch Line.Designer.vb">
+      <DependentUpon>Joke and Punch Line.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 1 And 2\Joke and Punch Line.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Chapter 3\Chapter3Menu.Designer.vb">
       <DependentUpon>Chapter3Menu.vb</DependentUpon>
     </Compile>
@@ -276,6 +288,9 @@
   <ItemGroup>
     <EmbeddedResource Include="Chapter 1 And 2\Chapter1_2Menu.resx">
       <DependentUpon>Chapter1_2Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 1 And 2\German Number.resx">
+      <DependentUpon>German Number.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Chapter 4\Application\Age Insult Program.resx">
       <DependentUpon>Age Insult Program.vb</DependentUpon>

@@ -28,6 +28,7 @@ Partial Class MainMenu
         Me.btnChapter4 = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.btnChapter8 = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'btnChapter1_2
@@ -68,7 +69,7 @@ Partial Class MainMenu
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(229, 253)
+        Me.btnExit.Location = New System.Drawing.Point(229, 237)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(98, 33)
         Me.btnExit.TabIndex = 4
@@ -84,11 +85,21 @@ Partial Class MainMenu
         Me.btnChapter8.Text = "Chapter 8"
         Me.btnChapter8.UseVisualStyleBackColor = True
         '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(171, 38)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(39, 13)
+        Me.Label1.TabIndex = 6
+        Me.Label1.Text = "Label1"
+        '
         'MainMenu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(395, 336)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnChapter8)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnChapter4)
@@ -98,6 +109,7 @@ Partial Class MainMenu
         Me.Name = "MainMenu"
         Me.Text = "Visual Basic"
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents btnChapter1_2 As System.Windows.Forms.Button
@@ -106,5 +118,6 @@ Partial Class MainMenu
     Friend WithEvents btnChapter4 As System.Windows.Forms.Button
     Friend WithEvents btnExit As System.Windows.Forms.Button
     Friend WithEvents btnChapter8 As System.Windows.Forms.Button
+    Friend WithEvents Label1 As System.Windows.Forms.Label
 
 End Class

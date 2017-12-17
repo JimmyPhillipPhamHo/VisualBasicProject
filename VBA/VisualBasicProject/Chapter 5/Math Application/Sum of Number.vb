@@ -1,4 +1,4 @@
-﻿Public Class SumofNumber
+﻿Public Class SumOfNumber
 
     Private Sub btnEnterNumbers_Click(sender As Object, e As EventArgs) Handles btnEnterNumbers.Click
         Dim strInput As String
