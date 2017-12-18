@@ -12,14 +12,13 @@
             Else
                 MessageBox.Show("Enter a positive integer value")
             End If
-
-
         End If
-
-
         'sumOfNumber = strInput.ToString * strInput.ToString + 1 / 2
 
         MessageBox.Show("The sum of the numbers 1 though " & numberInput & " is " & sumOfNumber)
+    End Sub
 
+    Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+        Me.Close()
     End Sub
 End Class

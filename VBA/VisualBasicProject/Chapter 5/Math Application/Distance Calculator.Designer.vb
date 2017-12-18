@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Distance_Calculator
+Partial Class DistanceCalculator
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -22,40 +22,23 @@ Partial Class Distance_Calculator
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.txtSpeed = New System.Windows.Forms.TextBox()
-        Me.txtHours = New System.Windows.Forms.TextBox()
-        Me.ListResults = New System.Windows.Forms.ListBox()
+        Me.lstDistance = New System.Windows.Forms.ListBox()
         Me.btnCalculate = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Label2 = New System.Windows.Forms.Label()
+        Me.btnClear = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
-        'txtSpeed
+        'lstDistance
         '
-        Me.txtSpeed.Location = New System.Drawing.Point(109, 30)
-        Me.txtSpeed.Name = "txtSpeed"
-        Me.txtSpeed.Size = New System.Drawing.Size(100, 20)
-        Me.txtSpeed.TabIndex = 0
-        '
-        'txtHours
-        '
-        Me.txtHours.Location = New System.Drawing.Point(309, 30)
-        Me.txtHours.Name = "txtHours"
-        Me.txtHours.Size = New System.Drawing.Size(100, 20)
-        Me.txtHours.TabIndex = 1
-        '
-        'ListResults
-        '
-        Me.ListResults.FormattingEnabled = True
-        Me.ListResults.Location = New System.Drawing.Point(79, 99)
-        Me.ListResults.Name = "ListResults"
-        Me.ListResults.Size = New System.Drawing.Size(271, 225)
-        Me.ListResults.TabIndex = 2
+        Me.lstDistance.FormattingEnabled = True
+        Me.lstDistance.Location = New System.Drawing.Point(36, 27)
+        Me.lstDistance.Name = "lstDistance"
+        Me.lstDistance.Size = New System.Drawing.Size(271, 225)
+        Me.lstDistance.TabIndex = 2
         '
         'btnCalculate
         '
-        Me.btnCalculate.Location = New System.Drawing.Point(109, 360)
+        Me.btnCalculate.Location = New System.Drawing.Point(36, 276)
         Me.btnCalculate.Name = "btnCalculate"
         Me.btnCalculate.Size = New System.Drawing.Size(75, 23)
         Me.btnCalculate.TabIndex = 3
@@ -64,54 +47,38 @@ Partial Class Distance_Calculator
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(264, 360)
+        Me.btnExit.Location = New System.Drawing.Point(232, 276)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 23)
         Me.btnExit.TabIndex = 4
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
-        'Label1
+        'btnClear
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(35, 30)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(38, 13)
-        Me.Label1.TabIndex = 5
-        Me.Label1.Text = "Speed"
+        Me.btnClear.Location = New System.Drawing.Point(133, 276)
+        Me.btnClear.Name = "btnClear"
+        Me.btnClear.Size = New System.Drawing.Size(75, 23)
+        Me.btnClear.TabIndex = 5
+        Me.btnClear.Text = "Clear"
+        Me.btnClear.UseVisualStyleBackColor = True
         '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(248, 36)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(35, 13)
-        Me.Label2.TabIndex = 6
-        Me.Label2.Text = "Hours"
-        '
-        'Distance_Calculator
+        'DistanceCalculator
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(453, 436)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
+        Me.ClientSize = New System.Drawing.Size(350, 334)
+        Me.Controls.Add(Me.btnClear)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnCalculate)
-        Me.Controls.Add(Me.ListResults)
-        Me.Controls.Add(Me.txtHours)
-        Me.Controls.Add(Me.txtSpeed)
-        Me.Name = "Distance_Calculator"
+        Me.Controls.Add(Me.lstDistance)
+        Me.Name = "DistanceCalculator"
         Me.Text = "Distance Calculator"
         Me.ResumeLayout(False)
-        Me.PerformLayout()
 
     End Sub
-    Friend WithEvents txtSpeed As System.Windows.Forms.TextBox
-    Friend WithEvents txtHours As System.Windows.Forms.TextBox
-    Friend WithEvents ListResults As System.Windows.Forms.ListBox
+    Friend WithEvents lstDistance As System.Windows.Forms.ListBox
     Friend WithEvents btnCalculate As System.Windows.Forms.Button
     Friend WithEvents btnExit As System.Windows.Forms.Button
-    Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents btnClear As System.Windows.Forms.Button
 End Class

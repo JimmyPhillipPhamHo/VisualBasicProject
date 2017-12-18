@@ -4,9 +4,6 @@
     Private Sub btnCoinToss_Click(sender As Object, e As EventArgs) Handles btnCoinToss.Click
         Dim Box = New CoinToss()
         Box.Show()
-
-        Dim Box2 = New Chapter5Menu
-        Box2.Close()
     End Sub
 
     Private Sub btnRockPaperScissors_Click(sender As Object, e As EventArgs) Handles btnRockPaperScissors.Click
@@ -31,11 +28,13 @@
     End Sub
 
     Private Sub btnDistanceCalculator_Click(sender As Object, e As EventArgs) Handles btnDistanceCalculator.Click
-
+        Dim Box = New SumOfNumber()
+        Box.Show()
     End Sub
 
     Private Sub btnPopulation_Click(sender As Object, e As EventArgs) Handles btnPopulation.Click
-
+        Dim Box = New SumOfNumber()
+        Box.Show()
     End Sub
 
     Private Sub btnRightTriangle_Click(sender As Object, e As EventArgs) Handles btnRightTriangle.Click

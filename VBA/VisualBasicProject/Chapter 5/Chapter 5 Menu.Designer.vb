@@ -46,7 +46,7 @@ Partial Class Chapter5Menu
         '
         'btnRightTriangle
         '
-        Me.btnRightTriangle.Location = New System.Drawing.Point(34, 150)
+        Me.btnRightTriangle.Location = New System.Drawing.Point(21, 121)
         Me.btnRightTriangle.Name = "btnRightTriangle"
         Me.btnRightTriangle.Size = New System.Drawing.Size(86, 23)
         Me.btnRightTriangle.TabIndex = 35
@@ -55,7 +55,7 @@ Partial Class Chapter5Menu
         '
         'btnComboBoxDemo
         '
-        Me.btnComboBoxDemo.Location = New System.Drawing.Point(38, 135)
+        Me.btnComboBoxDemo.Location = New System.Drawing.Point(23, 135)
         Me.btnComboBoxDemo.Name = "btnComboBoxDemo"
         Me.btnComboBoxDemo.Size = New System.Drawing.Size(108, 26)
         Me.btnComboBoxDemo.TabIndex = 33
@@ -64,7 +64,7 @@ Partial Class Chapter5Menu
         '
         'btnForNextDemo2
         '
-        Me.btnForNextDemo2.Location = New System.Drawing.Point(38, 104)
+        Me.btnForNextDemo2.Location = New System.Drawing.Point(23, 103)
         Me.btnForNextDemo2.Name = "btnForNextDemo2"
         Me.btnForNextDemo2.Size = New System.Drawing.Size(97, 25)
         Me.btnForNextDemo2.TabIndex = 32
@@ -73,7 +73,7 @@ Partial Class Chapter5Menu
         '
         'btnTestScore
         '
-        Me.btnTestScore.Location = New System.Drawing.Point(38, 73)
+        Me.btnTestScore.Location = New System.Drawing.Point(23, 73)
         Me.btnTestScore.Name = "btnTestScore"
         Me.btnTestScore.Size = New System.Drawing.Size(94, 25)
         Me.btnTestScore.TabIndex = 31
@@ -82,7 +82,7 @@ Partial Class Chapter5Menu
         '
         'btnRunningTotal
         '
-        Me.btnRunningTotal.Location = New System.Drawing.Point(38, 41)
+        Me.btnRunningTotal.Location = New System.Drawing.Point(23, 41)
         Me.btnRunningTotal.Name = "btnRunningTotal"
         Me.btnRunningTotal.Size = New System.Drawing.Size(94, 25)
         Me.btnRunningTotal.TabIndex = 30
@@ -91,16 +91,16 @@ Partial Class Chapter5Menu
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(297, 311)
+        Me.btnExit.Location = New System.Drawing.Point(247, 254)
         Me.btnExit.Name = "btnExit"
-        Me.btnExit.Size = New System.Drawing.Size(75, 23)
+        Me.btnExit.Size = New System.Drawing.Size(75, 28)
         Me.btnExit.TabIndex = 29
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
         'btnDistanceCalculator
         '
-        Me.btnDistanceCalculator.Location = New System.Drawing.Point(34, 73)
+        Me.btnDistanceCalculator.Location = New System.Drawing.Point(21, 59)
         Me.btnDistanceCalculator.Name = "btnDistanceCalculator"
         Me.btnDistanceCalculator.Size = New System.Drawing.Size(114, 25)
         Me.btnDistanceCalculator.TabIndex = 26
@@ -109,7 +109,7 @@ Partial Class Chapter5Menu
         '
         'btnPopulation
         '
-        Me.btnPopulation.Location = New System.Drawing.Point(34, 106)
+        Me.btnPopulation.Location = New System.Drawing.Point(21, 91)
         Me.btnPopulation.Name = "btnPopulation"
         Me.btnPopulation.Size = New System.Drawing.Size(75, 23)
         Me.btnPopulation.TabIndex = 25
@@ -127,7 +127,7 @@ Partial Class Chapter5Menu
         '
         'btnSumOfNumber
         '
-        Me.btnSumOfNumber.Location = New System.Drawing.Point(34, 30)
+        Me.btnSumOfNumber.Location = New System.Drawing.Point(21, 28)
         Me.btnSumOfNumber.Name = "btnSumOfNumber"
         Me.btnSumOfNumber.Size = New System.Drawing.Size(99, 25)
         Me.btnSumOfNumber.TabIndex = 23
@@ -164,10 +164,10 @@ Partial Class Chapter5Menu
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Modern No. 20", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(187, 23)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(174, 21)
+        Me.Label1.Size = New System.Drawing.Size(185, 24)
         Me.Label1.TabIndex = 19
         Me.Label1.Text = "Chaper 5 Application"
         '
@@ -190,9 +190,9 @@ Partial Class Chapter5Menu
         Me.GroupBox2.Controls.Add(Me.btnPopulation)
         Me.GroupBox2.Controls.Add(Me.btnRightTriangle)
         Me.GroupBox2.Controls.Add(Me.btnDistanceCalculator)
-        Me.GroupBox2.Location = New System.Drawing.Point(191, 74)
+        Me.GroupBox2.Location = New System.Drawing.Point(202, 87)
         Me.GroupBox2.Name = "GroupBox2"
-        Me.GroupBox2.Size = New System.Drawing.Size(153, 197)
+        Me.GroupBox2.Size = New System.Drawing.Size(161, 161)
         Me.GroupBox2.TabIndex = 37
         Me.GroupBox2.TabStop = False
         Me.GroupBox2.Text = "Math Application:"
@@ -203,9 +203,9 @@ Partial Class Chapter5Menu
         Me.GroupBox3.Controls.Add(Me.btnTestScore)
         Me.GroupBox3.Controls.Add(Me.btnForNextDemo2)
         Me.GroupBox3.Controls.Add(Me.btnComboBoxDemo)
-        Me.GroupBox3.Location = New System.Drawing.Point(350, 74)
+        Me.GroupBox3.Location = New System.Drawing.Point(384, 74)
         Me.GroupBox3.Name = "GroupBox3"
-        Me.GroupBox3.Size = New System.Drawing.Size(200, 197)
+        Me.GroupBox3.Size = New System.Drawing.Size(165, 188)
         Me.GroupBox3.TabIndex = 38
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Tutorial Application:"
@@ -214,7 +214,7 @@ Partial Class Chapter5Menu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(561, 366)
+        Me.ClientSize = New System.Drawing.Size(561, 299)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)

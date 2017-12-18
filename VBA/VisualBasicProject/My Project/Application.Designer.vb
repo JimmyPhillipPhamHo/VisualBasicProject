@@ -32,7 +32,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateMainForm()
-            Me.MainForm = Global.VisualBasicProject.CoinToss
+            Me.MainForm = Global.VisualBasicProject.SumOfNumber
         End Sub
     End Class
 End Namespace

@@ -1,21 +1,39 @@
-﻿Public Class Distance_Calculator
+﻿Public Class DistanceCalculator
+    Dim Speed As Decimal
+    Dim Time As Decimal
+    Dim Distance As Decimal
+    Dim Hours As Decimal
+    Sub Calculate()
+        Hours = Hours + 1
+        Distance = Speed * Hours
+        lstDistance.Items.Add(Hours & "              " & Distance.ToString)
+    End Sub
+
+    Sub Clear()
+        lstDistance.Items.Clear()
+    End Sub
+
+
 
     Private Sub btnCalculate_Click(sender As Object, e As EventArgs) Handles btnCalculate.Click
-        Dim Speed
-        'Dim Hours
 
-        Speed = InputBox("")
-        'Hours = InputBox()
+        Speed = InputBox("Enter the speed vehical in miles-per-hour")
+        Time = InputBox("Enter the amount of time, in hours")
 
-        Dim dblX As Decimal = 0
-        Dim dblDidblDistanceTraveled As Decimal
-        Do While dblX <= (txtHours.Text)
-            dblX = dblX + 1
-            dblDidblDistanceTraveled = (txtSpeed.Text) * dblX
-
-            'ListResults.Items.Add()
-
+        lstDistance.Items.Add("Vehicle Speed: " & Speed & " MPH")
+        lstDistance.Items.Add("Time Traveled: " & Time & " hours")
+        lstDistance.Items.Add("Hours      Distance Traveled")
+        lstDistance.Items.Add("------------------------------------------------------")
+        Do While Hours < Time
+            Calculate()
         Loop
+        lstDistance.Items.Add("Total Distance: " & Distance.ToString)
+    End Sub
 
+    Private Sub btnClear_Click(sender As Object, e As EventArgs) Handles btnClear.Click
+        Clear()
+    End Sub
+    Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
+        Me.Close()
     End Sub
 End Class
