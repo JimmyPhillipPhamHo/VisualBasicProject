@@ -413,6 +413,30 @@
   <ItemGroup>
     <None Include="Resources\download.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\solar-system-theme-gb4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0f206537b6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\piq_6568_400x400.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Finsh line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Start line.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cJuVjz0.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Star_Destroyer_Render.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5854ffbb4f6ae202fedf2672.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
