@@ -28,12 +28,13 @@ Partial Class Chapter1_2Menu
         Me.btnLatinTranslator = New System.Windows.Forms.Button()
         Me.btnMathTutor = New System.Windows.Forms.Button()
         Me.btnNameAndAddress = New System.Windows.Forms.Button()
-        Me.Button7 = New System.Windows.Forms.Button()
+        Me.btnExit = New System.Windows.Forms.Button()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'btnGermanNumber
         '
-        Me.btnGermanNumber.Location = New System.Drawing.Point(40, 70)
+        Me.btnGermanNumber.Location = New System.Drawing.Point(29, 81)
         Me.btnGermanNumber.Name = "btnGermanNumber"
         Me.btnGermanNumber.Size = New System.Drawing.Size(75, 37)
         Me.btnGermanNumber.TabIndex = 0
@@ -42,7 +43,7 @@ Partial Class Chapter1_2Menu
         '
         'btnKiloConverter
         '
-        Me.btnKiloConverter.Location = New System.Drawing.Point(167, 70)
+        Me.btnKiloConverter.Location = New System.Drawing.Point(132, 81)
         Me.btnKiloConverter.Name = "btnKiloConverter"
         Me.btnKiloConverter.Size = New System.Drawing.Size(75, 37)
         Me.btnKiloConverter.TabIndex = 1
@@ -51,7 +52,7 @@ Partial Class Chapter1_2Menu
         '
         'btnJokeAndPunchLine
         '
-        Me.btnJokeAndPunchLine.Location = New System.Drawing.Point(40, 138)
+        Me.btnJokeAndPunchLine.Location = New System.Drawing.Point(29, 149)
         Me.btnJokeAndPunchLine.Name = "btnJokeAndPunchLine"
         Me.btnJokeAndPunchLine.Size = New System.Drawing.Size(75, 37)
         Me.btnJokeAndPunchLine.TabIndex = 2
@@ -60,7 +61,7 @@ Partial Class Chapter1_2Menu
         '
         'btnLatinTranslator
         '
-        Me.btnLatinTranslator.Location = New System.Drawing.Point(167, 138)
+        Me.btnLatinTranslator.Location = New System.Drawing.Point(132, 149)
         Me.btnLatinTranslator.Name = "btnLatinTranslator"
         Me.btnLatinTranslator.Size = New System.Drawing.Size(75, 37)
         Me.btnLatinTranslator.TabIndex = 3
@@ -69,7 +70,7 @@ Partial Class Chapter1_2Menu
         '
         'btnMathTutor
         '
-        Me.btnMathTutor.Location = New System.Drawing.Point(298, 70)
+        Me.btnMathTutor.Location = New System.Drawing.Point(234, 81)
         Me.btnMathTutor.Name = "btnMathTutor"
         Me.btnMathTutor.Size = New System.Drawing.Size(75, 37)
         Me.btnMathTutor.TabIndex = 4
@@ -78,28 +79,39 @@ Partial Class Chapter1_2Menu
         '
         'btnNameAndAddress
         '
-        Me.btnNameAndAddress.Location = New System.Drawing.Point(298, 138)
+        Me.btnNameAndAddress.Location = New System.Drawing.Point(234, 149)
         Me.btnNameAndAddress.Name = "btnNameAndAddress"
         Me.btnNameAndAddress.Size = New System.Drawing.Size(75, 37)
         Me.btnNameAndAddress.TabIndex = 5
         Me.btnNameAndAddress.Text = "Name and Address"
         Me.btnNameAndAddress.UseVisualStyleBackColor = True
         '
-        'Button7
+        'btnExit
         '
-        Me.Button7.Location = New System.Drawing.Point(298, 197)
-        Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(75, 37)
-        Me.Button7.TabIndex = 6
-        Me.Button7.Text = "Exit"
-        Me.Button7.UseVisualStyleBackColor = True
+        Me.btnExit.Location = New System.Drawing.Point(132, 217)
+        Me.btnExit.Name = "btnExit"
+        Me.btnExit.Size = New System.Drawing.Size(75, 37)
+        Me.btnExit.TabIndex = 6
+        Me.btnExit.Text = "Exit"
+        Me.btnExit.UseVisualStyleBackColor = True
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!)
+        Me.Label1.Location = New System.Drawing.Point(45, 27)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(244, 24)
+        Me.Label1.TabIndex = 7
+        Me.Label1.Text = "Chapter 1 And 2 Application"
         '
         'Chapter1_2Menu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(425, 321)
-        Me.Controls.Add(Me.Button7)
+        Me.ClientSize = New System.Drawing.Size(332, 273)
+        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnNameAndAddress)
         Me.Controls.Add(Me.btnMathTutor)
         Me.Controls.Add(Me.btnLatinTranslator)
@@ -109,6 +121,7 @@ Partial Class Chapter1_2Menu
         Me.Name = "Chapter1_2Menu"
         Me.Text = "Chapter 1 and Chapter 2 "
         Me.ResumeLayout(False)
+        Me.PerformLayout()
 
     End Sub
     Friend WithEvents btnGermanNumber As System.Windows.Forms.Button
@@ -117,5 +130,6 @@ Partial Class Chapter1_2Menu
     Friend WithEvents btnLatinTranslator As System.Windows.Forms.Button
     Friend WithEvents btnMathTutor As System.Windows.Forms.Button
     Friend WithEvents btnNameAndAddress As System.Windows.Forms.Button
-    Friend WithEvents Button7 As System.Windows.Forms.Button
+    Friend WithEvents btnExit As System.Windows.Forms.Button
+    Friend WithEvents Label1 As System.Windows.Forms.Label
 End Class

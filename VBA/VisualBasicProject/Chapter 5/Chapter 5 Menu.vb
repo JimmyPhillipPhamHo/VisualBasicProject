@@ -45,21 +45,24 @@
     ' Tot
 
     Private Sub btnRunningTotal_Click(sender As Object, e As EventArgs) Handles btnRunningTotal.Click
-        Dim Box = New TotalScores
+        Dim Box = New RunningTotal
         Box.Show()
 
     End Sub
 
     Private Sub btnTestScore_Click(sender As Object, e As EventArgs) Handles btnTestScore.Click
-
+        Dim Box = New TotalScores
+        Box.Show()
     End Sub
 
     Private Sub btnForNextDemo2_Click(sender As Object, e As EventArgs) Handles btnForNextDemo2.Click
-
+        Dim Box = New ForNextDemo2
+        Box.Show()
     End Sub
 
     Private Sub btnComboBoxDemo_Click(sender As Object, e As EventArgs) Handles btnComboBoxDemo.Click
-
+        Dim Box = New ComboBoxDemo
+        Box.Show()
     End Sub
 
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click

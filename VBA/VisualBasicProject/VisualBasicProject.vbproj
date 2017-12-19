@@ -88,10 +88,100 @@
     <Compile Include="Chapter 1 And 2\Joke and Punch Line.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Chapter 1 And 2\Kilo Converter.Designer.vb">
+      <DependentUpon>Kilo Converter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 1 And 2\Kilo Converter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 1 And 2\Latin Translator.Designer.vb">
+      <DependentUpon>Latin Translator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 1 And 2\Latin Translator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 1 And 2\Math Tutor.Designer.vb">
+      <DependentUpon>Math Tutor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 1 And 2\Math Tutor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 1 And 2\Name and Address.Designer.vb">
+      <DependentUpon>Name and Address.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 1 And 2\Name and Address.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 3\Application\Calculator Property Tax.Designer.vb">
+      <DependentUpon>Calculator Property Tax.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 3\Application\Calculator Property Tax.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Chapter 3\Chapter3Menu.Designer.vb">
       <DependentUpon>Chapter3Menu.vb</DependentUpon>
     </Compile>
     <Compile Include="Chapter 3\Chapter3Menu.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 3\Application\Date String.Designer.vb">
+      <DependentUpon>Date String.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 3\Application\Date String.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 3\Application\Format Demo.Designer.vb">
+      <DependentUpon>Format Demo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 3\Application\Format Demo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 3\Application\Greetings.Designer.vb">
+      <DependentUpon>Greetings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 3\Application\Greetings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 3\Application\Highlander Hotel.Designer.vb">
+      <DependentUpon>Highlander Hotel.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 3\Application\Highlander Hotel.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 3\Application\Miles per Gallon Calculator.Designer.vb">
+      <DependentUpon>Miles per Gallon Calculator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 3\Application\Miles per Gallon Calculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 3\Application\Simple Calculator.Designer.vb">
+      <DependentUpon>Simple Calculator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 3\Application\Simple Calculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 3\Application\Stadium Seating.Designer.vb">
+      <DependentUpon>Stadium Seating.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 3\Application\Stadium Seating.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 3\Application\Temperature Converter.Designer.vb">
+      <DependentUpon>Temperature Converter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 3\Application\Temperature Converter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 3\Application\Test Score Average.Designer.vb">
+      <DependentUpon>Test Score Average.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 3\Application\Test Score Average.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 3\Application\Variable Demo.Designer.vb">
+      <DependentUpon>Variable Demo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 3\Application\Variable Demo.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Chapter 4\Application\Age Insult Program.Designer.vb">
@@ -116,6 +206,12 @@
       <DependentUpon>MadLibs.vb</DependentUpon>
     </Compile>
     <Compile Include="Chapter 4\Application\MadLibs.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 4\Application\Ordering Food.Designer.vb">
+      <DependentUpon>Ordering Food.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 4\Application\Ordering Food.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Chapter 4\Application\Romen Numeral Converter.Designer.vb">
@@ -194,6 +290,12 @@
       <DependentUpon>Distance Calculator.vb</DependentUpon>
     </Compile>
     <Compile Include="Chapter 5\Math Application\Distance Calculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chapter 5\Math Application\Population.Designer.vb">
+      <DependentUpon>Population.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Chapter 5\Math Application\Population.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Chapter 5\Math Application\Right Triangle.Designer.vb">
@@ -292,6 +394,33 @@
     <EmbeddedResource Include="Chapter 1 And 2\German Number.resx">
       <DependentUpon>German Number.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 1 And 2\Joke and Punch Line.resx">
+      <DependentUpon>Joke and Punch Line.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 1 And 2\Kilo Converter.resx">
+      <DependentUpon>Kilo Converter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 1 And 2\Latin Translator.resx">
+      <DependentUpon>Latin Translator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 1 And 2\Math Tutor.resx">
+      <DependentUpon>Math Tutor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 1 And 2\Name and Address.resx">
+      <DependentUpon>Name and Address.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 3\Application\Calculator Property Tax.resx">
+      <DependentUpon>Calculator Property Tax.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 3\Chapter3Menu.resx">
+      <DependentUpon>Chapter3Menu.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 3\Application\Format Demo.resx">
+      <DependentUpon>Format Demo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 3\Application\Stadium Seating.resx">
+      <DependentUpon>Stadium Seating.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Chapter 4\Application\Age Insult Program.resx">
       <DependentUpon>Age Insult Program.vb</DependentUpon>
     </EmbeddedResource>
@@ -303,6 +432,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Chapter 4\Application\MadLibs.resx">
       <DependentUpon>MadLibs.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 4\Application\Ordering Food.resx">
+      <DependentUpon>Ordering Food.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Chapter 4\Application\Romen Numeral Converter.resx">
       <DependentUpon>Romen Numeral Converter.vb</DependentUpon>
@@ -342,6 +474,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Chapter 5\Math Application\Distance Calculator.resx">
       <DependentUpon>Distance Calculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chapter 5\Math Application\Population.resx">
+      <DependentUpon>Population.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Chapter 5\Math Application\Right Triangle.resx">
       <DependentUpon>Right Triangle.vb</DependentUpon>
@@ -439,6 +574,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\580b585b2edbce24c47b2467.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Chapter 1 And 2\Application\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
