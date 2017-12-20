@@ -2,17 +2,17 @@
 
     ' Game Application Button Clome
     Private Sub btnCoinToss_Click(sender As Object, e As EventArgs) Handles btnCoinToss.Click
-        Dim Box = New CoinToss()
+        Dim Box = New CoinToss
         Box.Show()
     End Sub
 
     Private Sub btnRockPaperScissors_Click(sender As Object, e As EventArgs) Handles btnRockPaperScissors.Click
-        Dim Box = New RockPaperScissors()
+        Dim Box = New RockPaperScissors
         Box.Show()
     End Sub
 
     Private Sub btnRaceCarGame_Click(sender As Object, e As EventArgs) Handles btnRaceCarGame.Click
-        Dim Box = New RaceCarGame()
+        Dim Box = New RaceCarGame
         Box.Show()
     End Sub
 
@@ -23,17 +23,17 @@
 
     ' Math Application
     Private Sub btnSumOfNumber_Click(sender As Object, e As EventArgs) Handles btnSumOfNumber.Click
-        Dim Box = New SumOfNumber()
+        Dim Box = New SumOfNumber
         Box.Show()
     End Sub
 
     Private Sub btnDistanceCalculator_Click(sender As Object, e As EventArgs) Handles btnDistanceCalculator.Click
-        Dim Box = New SumOfNumber()
+        Dim Box = New DistanceCalculator
         Box.Show()
     End Sub
 
     Private Sub btnPopulation_Click(sender As Object, e As EventArgs) Handles btnPopulation.Click
-        Dim Box = New SumOfNumber()
+        Dim Box = New SumOfNumber
         Box.Show()
     End Sub
 
@@ -42,12 +42,11 @@
         Box.Show()
     End Sub
 
-    ' Tot
+    ' Tutotial Application
 
     Private Sub btnRunningTotal_Click(sender As Object, e As EventArgs) Handles btnRunningTotal.Click
         Dim Box = New RunningTotal
         Box.Show()
-
     End Sub
 
     Private Sub btnTestScore_Click(sender As Object, e As EventArgs) Handles btnTestScore.Click
@@ -65,8 +64,14 @@
         Box.Show()
     End Sub
 
+    ' Return to MainMenu And Close the Chapter menu
+    Private Sub btnReturn_Click(sender As Object, e As EventArgs) Handles btnReturn.Click
+        MainMenu.Visible = True
+        Me.Close()
+    End Sub
+    ' Close the whole Project
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         Me.Close()
-        MainMenu.Show()
+        MainMenu.Close()
     End Sub
 End Class

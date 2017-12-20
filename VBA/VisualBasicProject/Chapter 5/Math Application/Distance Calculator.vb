@@ -13,8 +13,6 @@
         lstDistance.Items.Clear()
     End Sub
 
-
-
     Private Sub btnCalculate_Click(sender As Object, e As EventArgs) Handles btnCalculate.Click
 
         Speed = InputBox("Enter the speed vehical in miles-per-hour")

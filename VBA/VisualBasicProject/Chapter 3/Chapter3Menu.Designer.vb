@@ -35,11 +35,12 @@ Partial Class Chapter3Menu
         Me.btnVariableDemo = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.btnReturn = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnCalculatorPropertyTax
         '
-        Me.btnCalculatorPropertyTax.Location = New System.Drawing.Point(41, 87)
+        Me.btnCalculatorPropertyTax.Location = New System.Drawing.Point(35, 71)
         Me.btnCalculatorPropertyTax.Name = "btnCalculatorPropertyTax"
         Me.btnCalculatorPropertyTax.Size = New System.Drawing.Size(81, 42)
         Me.btnCalculatorPropertyTax.TabIndex = 0
@@ -48,7 +49,7 @@ Partial Class Chapter3Menu
         '
         'btnDateString
         '
-        Me.btnDateString.Location = New System.Drawing.Point(136, 87)
+        Me.btnDateString.Location = New System.Drawing.Point(130, 71)
         Me.btnDateString.Name = "btnDateString"
         Me.btnDateString.Size = New System.Drawing.Size(81, 42)
         Me.btnDateString.TabIndex = 1
@@ -57,7 +58,7 @@ Partial Class Chapter3Menu
         '
         'btnFormatDemo
         '
-        Me.btnFormatDemo.Location = New System.Drawing.Point(234, 87)
+        Me.btnFormatDemo.Location = New System.Drawing.Point(228, 71)
         Me.btnFormatDemo.Name = "btnFormatDemo"
         Me.btnFormatDemo.Size = New System.Drawing.Size(81, 42)
         Me.btnFormatDemo.TabIndex = 2
@@ -66,7 +67,7 @@ Partial Class Chapter3Menu
         '
         'btnGreetings
         '
-        Me.btnGreetings.Location = New System.Drawing.Point(331, 87)
+        Me.btnGreetings.Location = New System.Drawing.Point(325, 71)
         Me.btnGreetings.Name = "btnGreetings"
         Me.btnGreetings.Size = New System.Drawing.Size(81, 42)
         Me.btnGreetings.TabIndex = 3
@@ -75,7 +76,7 @@ Partial Class Chapter3Menu
         '
         'btnHighlanderHotel
         '
-        Me.btnHighlanderHotel.Location = New System.Drawing.Point(41, 144)
+        Me.btnHighlanderHotel.Location = New System.Drawing.Point(35, 128)
         Me.btnHighlanderHotel.Name = "btnHighlanderHotel"
         Me.btnHighlanderHotel.Size = New System.Drawing.Size(81, 42)
         Me.btnHighlanderHotel.TabIndex = 4
@@ -84,7 +85,7 @@ Partial Class Chapter3Menu
         '
         'btnMilesPerGallonCalculator
         '
-        Me.btnMilesPerGallonCalculator.Location = New System.Drawing.Point(136, 144)
+        Me.btnMilesPerGallonCalculator.Location = New System.Drawing.Point(130, 128)
         Me.btnMilesPerGallonCalculator.Name = "btnMilesPerGallonCalculator"
         Me.btnMilesPerGallonCalculator.Size = New System.Drawing.Size(81, 42)
         Me.btnMilesPerGallonCalculator.TabIndex = 5
@@ -93,7 +94,7 @@ Partial Class Chapter3Menu
         '
         'btnSimpleCalculator
         '
-        Me.btnSimpleCalculator.Location = New System.Drawing.Point(234, 144)
+        Me.btnSimpleCalculator.Location = New System.Drawing.Point(228, 128)
         Me.btnSimpleCalculator.Name = "btnSimpleCalculator"
         Me.btnSimpleCalculator.Size = New System.Drawing.Size(81, 42)
         Me.btnSimpleCalculator.TabIndex = 6
@@ -102,7 +103,7 @@ Partial Class Chapter3Menu
         '
         'btnStadiumSeating
         '
-        Me.btnStadiumSeating.Location = New System.Drawing.Point(331, 144)
+        Me.btnStadiumSeating.Location = New System.Drawing.Point(325, 128)
         Me.btnStadiumSeating.Name = "btnStadiumSeating"
         Me.btnStadiumSeating.Size = New System.Drawing.Size(81, 42)
         Me.btnStadiumSeating.TabIndex = 7
@@ -111,7 +112,7 @@ Partial Class Chapter3Menu
         '
         'btnTemperatureConverter
         '
-        Me.btnTemperatureConverter.Location = New System.Drawing.Point(41, 205)
+        Me.btnTemperatureConverter.Location = New System.Drawing.Point(83, 188)
         Me.btnTemperatureConverter.Name = "btnTemperatureConverter"
         Me.btnTemperatureConverter.Size = New System.Drawing.Size(81, 42)
         Me.btnTemperatureConverter.TabIndex = 8
@@ -120,7 +121,7 @@ Partial Class Chapter3Menu
         '
         'btnTestScoreAverage
         '
-        Me.btnTestScoreAverage.Location = New System.Drawing.Point(136, 205)
+        Me.btnTestScoreAverage.Location = New System.Drawing.Point(178, 188)
         Me.btnTestScoreAverage.Name = "btnTestScoreAverage"
         Me.btnTestScoreAverage.Size = New System.Drawing.Size(81, 42)
         Me.btnTestScoreAverage.TabIndex = 9
@@ -129,7 +130,7 @@ Partial Class Chapter3Menu
         '
         'btnVariableDemo
         '
-        Me.btnVariableDemo.Location = New System.Drawing.Point(234, 205)
+        Me.btnVariableDemo.Location = New System.Drawing.Point(276, 188)
         Me.btnVariableDemo.Name = "btnVariableDemo"
         Me.btnVariableDemo.Size = New System.Drawing.Size(81, 42)
         Me.btnVariableDemo.TabIndex = 10
@@ -138,7 +139,7 @@ Partial Class Chapter3Menu
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(331, 205)
+        Me.btnExit.Location = New System.Drawing.Point(234, 255)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(81, 42)
         Me.btnExit.TabIndex = 11
@@ -155,11 +156,21 @@ Partial Class Chapter3Menu
         Me.Label1.TabIndex = 12
         Me.Label1.Text = "Chapter 3 Application"
         '
+        'btnReturn
+        '
+        Me.btnReturn.Location = New System.Drawing.Point(130, 255)
+        Me.btnReturn.Name = "btnReturn"
+        Me.btnReturn.Size = New System.Drawing.Size(81, 42)
+        Me.btnReturn.TabIndex = 22
+        Me.btnReturn.Text = "Return"
+        Me.btnReturn.UseVisualStyleBackColor = True
+        '
         'Chapter3Menu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(464, 281)
+        Me.ClientSize = New System.Drawing.Size(464, 318)
+        Me.Controls.Add(Me.btnReturn)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnVariableDemo)
@@ -192,4 +203,5 @@ Partial Class Chapter3Menu
     Friend WithEvents btnVariableDemo As System.Windows.Forms.Button
     Friend WithEvents btnExit As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents btnReturn As System.Windows.Forms.Button
 End Class

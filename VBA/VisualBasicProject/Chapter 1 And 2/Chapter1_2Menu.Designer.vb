@@ -30,6 +30,7 @@ Partial Class Chapter1_2Menu
         Me.btnNameAndAddress = New System.Windows.Forms.Button()
         Me.btnExit = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.btnReturn = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'btnGermanNumber
@@ -88,7 +89,7 @@ Partial Class Chapter1_2Menu
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(132, 217)
+        Me.btnExit.Location = New System.Drawing.Point(187, 210)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 37)
         Me.btnExit.TabIndex = 6
@@ -105,11 +106,21 @@ Partial Class Chapter1_2Menu
         Me.Label1.TabIndex = 7
         Me.Label1.Text = "Chapter 1 And 2 Application"
         '
+        'btnReturn
+        '
+        Me.btnReturn.Location = New System.Drawing.Point(78, 210)
+        Me.btnReturn.Name = "btnReturn"
+        Me.btnReturn.Size = New System.Drawing.Size(75, 37)
+        Me.btnReturn.TabIndex = 21
+        Me.btnReturn.Text = "Return"
+        Me.btnReturn.UseVisualStyleBackColor = True
+        '
         'Chapter1_2Menu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(332, 273)
+        Me.Controls.Add(Me.btnReturn)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.btnNameAndAddress)
@@ -132,4 +143,5 @@ Partial Class Chapter1_2Menu
     Friend WithEvents btnNameAndAddress As System.Windows.Forms.Button
     Friend WithEvents btnExit As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents btnReturn As System.Windows.Forms.Button
 End Class

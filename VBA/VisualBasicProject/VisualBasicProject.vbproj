@@ -76,40 +76,40 @@
     <Compile Include="Chapter 1 And 2\Chapter1_2Menu.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter 1 And 2\German Number.Designer.vb">
+    <Compile Include="Chapter 1 And 2\Application\German Number.Designer.vb">
       <DependentUpon>German Number.vb</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 1 And 2\German Number.vb">
+    <Compile Include="Chapter 1 And 2\Application\German Number.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter 1 And 2\Joke and Punch Line.Designer.vb">
+    <Compile Include="Chapter 1 And 2\Application\Joke and Punch Line.Designer.vb">
       <DependentUpon>Joke and Punch Line.vb</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 1 And 2\Joke and Punch Line.vb">
+    <Compile Include="Chapter 1 And 2\Application\Joke and Punch Line.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter 1 And 2\Kilo Converter.Designer.vb">
+    <Compile Include="Chapter 1 And 2\Application\Kilo Converter.Designer.vb">
       <DependentUpon>Kilo Converter.vb</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 1 And 2\Kilo Converter.vb">
+    <Compile Include="Chapter 1 And 2\Application\Kilo Converter.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter 1 And 2\Latin Translator.Designer.vb">
+    <Compile Include="Chapter 1 And 2\Application\Latin Translator.Designer.vb">
       <DependentUpon>Latin Translator.vb</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 1 And 2\Latin Translator.vb">
+    <Compile Include="Chapter 1 And 2\Application\Latin Translator.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter 1 And 2\Math Tutor.Designer.vb">
+    <Compile Include="Chapter 1 And 2\Application\Math Tutor.Designer.vb">
       <DependentUpon>Math Tutor.vb</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 1 And 2\Math Tutor.vb">
+    <Compile Include="Chapter 1 And 2\Application\Math Tutor.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chapter 1 And 2\Name and Address.Designer.vb">
+    <Compile Include="Chapter 1 And 2\Application\Name and Address.Designer.vb">
       <DependentUpon>Name and Address.vb</DependentUpon>
     </Compile>
-    <Compile Include="Chapter 1 And 2\Name and Address.vb">
+    <Compile Include="Chapter 1 And 2\Application\Name and Address.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Chapter 3\Application\Calculator Property Tax.Designer.vb">
@@ -391,22 +391,22 @@
     <EmbeddedResource Include="Chapter 1 And 2\Chapter1_2Menu.resx">
       <DependentUpon>Chapter1_2Menu.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Chapter 1 And 2\German Number.resx">
+    <EmbeddedResource Include="Chapter 1 And 2\Application\German Number.resx">
       <DependentUpon>German Number.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Chapter 1 And 2\Joke and Punch Line.resx">
+    <EmbeddedResource Include="Chapter 1 And 2\Application\Joke and Punch Line.resx">
       <DependentUpon>Joke and Punch Line.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Chapter 1 And 2\Kilo Converter.resx">
+    <EmbeddedResource Include="Chapter 1 And 2\Application\Kilo Converter.resx">
       <DependentUpon>Kilo Converter.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Chapter 1 And 2\Latin Translator.resx">
+    <EmbeddedResource Include="Chapter 1 And 2\Application\Latin Translator.resx">
       <DependentUpon>Latin Translator.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Chapter 1 And 2\Math Tutor.resx">
+    <EmbeddedResource Include="Chapter 1 And 2\Application\Math Tutor.resx">
       <DependentUpon>Math Tutor.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Chapter 1 And 2\Name and Address.resx">
+    <EmbeddedResource Include="Chapter 1 And 2\Application\Name and Address.resx">
       <DependentUpon>Name and Address.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Chapter 3\Application\Calculator Property Tax.resx">
@@ -575,9 +575,7 @@
   <ItemGroup>
     <None Include="Resources\580b585b2edbce24c47b2467.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Chapter 1 And 2\Application\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

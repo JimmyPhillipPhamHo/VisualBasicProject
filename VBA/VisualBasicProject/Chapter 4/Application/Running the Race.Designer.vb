@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Running_the_Race
+Partial Class RunningTheRace
     Inherits System.Windows.Forms.Form
 
     'Form overrides dispose to clean up the component list.
@@ -245,7 +245,7 @@ Partial Class Running_the_Race
         Me.btnExit.Text = "Exit"
         Me.btnExit.UseVisualStyleBackColor = True
         '
-        'Running_the_Race
+        'RunningTheRace
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -266,7 +266,7 @@ Partial Class Running_the_Race
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
-        Me.Name = "Running_the_Race"
+        Me.Name = "RunningTheRace"
         Me.Text = "Race Results"
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox1.PerformLayout()

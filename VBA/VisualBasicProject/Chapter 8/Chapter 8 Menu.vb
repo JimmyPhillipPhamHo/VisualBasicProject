@@ -20,7 +20,14 @@
         Box.Show()
     End Sub
 
+    ' Return to MainMenu And Close the Chapter menu
+    Private Sub btnReturn_Click(sender As Object, e As EventArgs) Handles btnReturn.Click
+        MainMenu.Visible = True
+        Me.Close()
+    End Sub
+    ' Close the whole Project
     Private Sub btnExit_Click(sender As Object, e As EventArgs) Handles btnExit.Click
         Me.Close()
+        MainMenu.Close()
     End Sub
 End Class

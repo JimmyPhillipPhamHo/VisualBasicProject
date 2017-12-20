@@ -1,4 +1,4 @@
-﻿Public Class Running_the_Race
+﻿Public Class RunningTheRace
 
     Private Sub btnCalculate_Click(sender As Object, e As EventArgs) Handles btnCalculate.Click
         Dim dblTime1, dblTime2, dblTime3 As Double

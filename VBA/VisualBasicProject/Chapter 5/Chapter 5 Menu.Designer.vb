@@ -39,6 +39,7 @@ Partial Class Chapter5Menu
         Me.GroupBox1 = New System.Windows.Forms.GroupBox()
         Me.GroupBox2 = New System.Windows.Forms.GroupBox()
         Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.btnReturn = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
@@ -91,7 +92,7 @@ Partial Class Chapter5Menu
         '
         'btnExit
         '
-        Me.btnExit.Location = New System.Drawing.Point(247, 254)
+        Me.btnExit.Location = New System.Drawing.Point(288, 254)
         Me.btnExit.Name = "btnExit"
         Me.btnExit.Size = New System.Drawing.Size(75, 28)
         Me.btnExit.TabIndex = 29
@@ -210,18 +211,28 @@ Partial Class Chapter5Menu
         Me.GroupBox3.TabStop = False
         Me.GroupBox3.Text = "Tutorial Application:"
         '
+        'btnReturn
+        '
+        Me.btnReturn.Location = New System.Drawing.Point(202, 254)
+        Me.btnReturn.Name = "btnReturn"
+        Me.btnReturn.Size = New System.Drawing.Size(75, 28)
+        Me.btnReturn.TabIndex = 39
+        Me.btnReturn.Text = "Return"
+        Me.btnReturn.UseVisualStyleBackColor = True
+        '
         'Chapter5Menu
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(561, 299)
+        Me.Controls.Add(Me.btnReturn)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.btnExit)
         Me.Controls.Add(Me.Label1)
         Me.Name = "Chapter5Menu"
-        Me.Text = "Chapter 5 Menu"
+        Me.Text = "Chapter 5 "
         Me.GroupBox1.ResumeLayout(False)
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox3.ResumeLayout(False)
@@ -246,4 +257,5 @@ Partial Class Chapter5Menu
     Friend WithEvents GroupBox1 As System.Windows.Forms.GroupBox
     Friend WithEvents GroupBox2 As System.Windows.Forms.GroupBox
     Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
+    Friend WithEvents btnReturn As System.Windows.Forms.Button
 End Class
